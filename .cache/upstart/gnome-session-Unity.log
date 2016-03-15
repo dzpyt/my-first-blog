@@ -1,0 +1,101 @@
+
+(sublime_text:4679): GLib-CRITICAL **: Source ID 222306 was not found when attempting to remove it
+
+(sublime_text:4679): GLib-CRITICAL **: Source ID 222315 was not found when attempting to remove it
+
+(sublime_text:4679): GLib-CRITICAL **: Source ID 222321 was not found when attempting to remove it
+
+(sublime_text:4679): GLib-CRITICAL **: Source ID 222343 was not found when attempting to remove it
+ERROR 2016-03-15 21:41:31 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-03-15 21:41:31 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-03-15 21:41:31 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-03-15 21:41:31 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-03-15 21:41:31 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-03-15 21:41:31 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-03-15 21:41:31 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-03-15 21:41:31 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-03-15 21:41:31 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-03-15 21:41:31 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-03-15 21:41:31 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-03-15 21:41:31 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-03-15 21:41:31 unity <unknown>:0 atk_object_ref_state_set: assertion 'ATK_IS_OBJECT (accessible)' failed
+ERROR 2016-03-15 21:41:31 unity <unknown>:0 atk_state_set_contains_state: assertion 'ATK_IS_STATE_SET (set)' failed
+ERROR 2016-03-15 21:41:31 unityding->source != null <unknown>:0 g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+ERROR 2016-03-15 21:41:33 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-03-15 21:41:33 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-03-15 21:41:33 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-03-15 21:41:33 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-03-15 21:41:33 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-03-15 21:41:33 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-03-15 21:41:33 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-03-15 21:41:33 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-03-15 21:41:33 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-03-15 21:41:33 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-03-15 21:41:33 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2016-03-15 21:41:33 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+
+(sublime_text:4679): GLib-CRITICAL **: Source ID 222347 was not found when attempting to remove it
+
+(sublime_text:4679): GLib-CRITICAL **: Source ID 222357 was not found when attempting to remove it
+
+(sublime_text:4679): GLib-CRITICAL **: Source ID 222361 was not found when attempting to remove it
+
+(sublime_text:4679): GLib-CRITICAL **: Source ID 222467 was not found when attempting to remove it
+
+(sublime_text:4679): GLib-CRITICAL **: Source ID 223451 was not found when attempting to remove it
+
+(sublime_text:4679): GLib-CRITICAL **: Source ID 223942 was not found when attempting to remove it
+
+(sublime_text:4679): GLib-CRITICAL **: Source ID 223946 was not found when attempting to remove it
+
+(sublime_text:4679): GLib-CRITICAL **: Source ID 226706 was not found when attempting to remove it
+
+(sublime_text:4679): GLib-CRITICAL **: Source ID 229737 was not found when attempting to remove it
+
+(sublime_text:4679): GLib-CRITICAL **: Source ID 230052 was not found when attempting to remove it
+
+(sublime_text:4679): GLib-CRITICAL **: Source ID 230362 was not found when attempting to remove it
+
+(sublime_text:4679): GLib-CRITICAL **: Source ID 233108 was not found when attempting to remove it
+
+(sublime_text:4679): GLib-CRITICAL **: Source ID 233285 was not found when attempting to remove it
+
+(sublime_text:4679): GLib-CRITICAL **: Source ID 233294 was not found when attempting to remove it
+
+(sublime_text:4679): GLib-CRITICAL **: Source ID 233298 was not found when attempting to remove it
+
+(sublime_text:4679): GLib-CRITICAL **: Source ID 233659 was not found when attempting to remove it
+
+(sublime_text:4679): GLib-CRITICAL **: Source ID 234682 was not found when attempting to remove it
+
+** (zeitgeist-datahub:2222): WARNING **: recent-manager-provider.vala:132: Desktop file for "file:///home/ula/.gitignore" was not found, exec: sublime_text, mime_type: application/octet-stream
+
+(sublime_text:4679): GLib-CRITICAL **: Source ID 266507 was not found when attempting to remove it
+
+(sublime_text:4679): GLib-CRITICAL **: Source ID 266523 was not found when attempting to remove it
+
+(sublime_text:4679): GLib-CRITICAL **: Source ID 266533 was not found when attempting to remove it
+
+(sublime_text:4679): GLib-CRITICAL **: Source ID 266537 was not found when attempting to remove it
+
+(sublime_text:4679): GLib-CRITICAL **: Source ID 266543 was not found when attempting to remove it
+
+(sublime_text:4679): GLib-CRITICAL **: Source ID 266547 was not found when attempting to remove it
+
+(sublime_text:4679): GLib-CRITICAL **: Source ID 266553 was not found when attempting to remove it
+
+(sublime_text:4679): GLib-CRITICAL **: Source ID 267168 was not found when attempting to remove it
+
+(sublime_text:4679): GLib-CRITICAL **: Source ID 267486 was not found when attempting to remove it
+
+(sublime_text:4679): GLib-CRITICAL **: Source ID 268091 was not found when attempting to remove it
+
+(sublime_text:4679): GLib-CRITICAL **: Source ID 268405 was not found when attempting to remove it
+
+(sublime_text:4679): GLib-CRITICAL **: Source ID 270784 was not found when attempting to remove it
+
+(sublime_text:4679): GLib-CRITICAL **: Source ID 270790 was not found when attempting to remove it
+
+(sublime_text:4679): GLib-CRITICAL **: Source ID 271399 was not found when attempting to remove it
+
+(sublime_text:4679): GLib-CRITICAL **: Source ID 271889 was not found when attempting to remove it

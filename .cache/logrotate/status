@@ -1,0 +1,25 @@
+logrotate state -- version 2
+"/home/ula/.cache/upstart/indicator-printers.log" 2016-3-15-20:42:5
+"/home/ula/.cache/upstart/upstart-dbus-system-bridge.log" 2016-3-15-20:42:5
+"/home/ula/.cache/upstart/im-config.log" 2016-3-15-20:42:5
+"/home/ula/.cache/upstart/update-notifier-cds.log" 2016-3-10-21:50:17
+"/home/ula/.cache/upstart/update-notifier-crash-_var_crash__usr_bin_compiz.1000.crash.log" 2016-3-15-20:42:5
+"/home/ula/.cache/upstart/gnome-session-Unity.log" 2016-3-15-21:21:48
+"/home/ula/.cache/upstart/window-stack-bridge.log" 2016-3-15-20:42:5
+"/home/ula/.cache/upstart/at-spi2-registryd.log" 2016-3-15-16:25:6
+"/home/ula/.cache/upstart/gnome-keyring-gpg.log" 2016-3-15-20:42:5
+"/home/ula/.cache/upstart/indicator-datetime.log" 2016-3-15-16:25:6
+"/home/ula/.cache/upstart/indicator-power.log" 2016-3-15-20:42:5
+"/home/ula/.cache/upstart/update-notifier-crash-_var_crash__usr_bin_nautilus.1000.crash.log" 2016-3-15-20:42:5
+"/home/ula/.cache/upstart/hud.log" 2016-3-15-20:42:5
+"/home/ula/.cache/upstart/dbus.log" 2016-3-15-21:21:48
+"/home/ula/.cache/upstart/indicator-sound.log" 2016-3-15-20:42:5
+"/home/ula/.cache/upstart/update-notifier-release.log" 2016-3-15-20:42:5
+"/home/ula/.cache/upstart/indicator-session.log" 2016-3-15-16:11:7
+"/home/ula/.cache/upstart/ssh-agent.log" 2016-3-15-20:42:5
+"/home/ula/.cache/upstart/unity7.log" 2016-3-15-20:42:5
+"/home/ula/.cache/upstart/indicator-bluetooth.log" 2016-3-15-20:42:5
+"/home/ula/.cache/upstart/gnome-keyring-ssh.log" 2016-3-15-20:42:5
+"/home/ula/.cache/upstart/unity-settings-daemon.log" 2016-3-15-21:21:48
+"/home/ula/.cache/upstart/gnome-keyring.log" 2016-3-15-20:42:5
+"/home/ula/.cache/upstart/unity-panel-service.log" 2016-3-15-21:21:48

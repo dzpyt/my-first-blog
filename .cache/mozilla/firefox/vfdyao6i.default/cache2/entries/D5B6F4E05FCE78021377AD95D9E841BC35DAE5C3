@@ -1,0 +1,1480 @@
+<!doctype html>
+<!--[if lt IE 7]>   <html class="no-js ie6 lt-ie7 lt-ie8 lt-ie9">   <![endif]-->
+<!--[if IE 7]>      <html class="no-js ie7 lt-ie8 lt-ie9">          <![endif]-->
+<!--[if IE 8]>      <html class="no-js ie8 lt-ie9">                 <![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" lang="en" dir="ltr">  <!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="prefetch" href="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js">
+
+    <meta name="application-name" content="Python.org">
+    <meta name="msapplication-tooltip" content="The official home of the Python Programming Language">
+    <meta name="apple-mobile-web-app-title" content="Python.org">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="cleartype" content="on">
+    <meta http-equiv="imagetoolbar" content="false">
+
+    <script src="/static/js/libs/modernizr.js"></script>
+
+    <link href="/static/stylesheets/style.css" rel="stylesheet" type="text/css" title="default" />
+    <link href="/static/stylesheets/mq.css" rel="stylesheet" type="text/css" media="not print, braille, embossed, speech, tty" />
+    
+
+    <!--[if (lte IE 8)&(!IEMobile)]>
+    <link href="/static/stylesheets/no-mq.css" rel="stylesheet" type="text/css" media="screen" />
+    
+    
+    <![endif]-->
+
+    
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/static/apple-touch-icon-144x144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/static/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/static/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="/static/apple-touch-icon-precomposed.png">
+    <link rel="apple-touch-icon" href="/static/apple-touch-icon-precomposed.png">
+
+    
+    <meta name="msapplication-TileImage" content="/static/metro-icon-144x144-precomposed.png"><!-- white shape -->
+    <meta name="msapplication-TileColor" content="#3673a5"><!-- python blue -->
+    <meta name="msapplication-navbutton-color" content="#3673a5">
+
+    <title>Welcome to Python.org</title>
+
+    <meta name="description" content="The official home of the Python Programming Language">
+    <meta name="keywords" content="Python programming language object oriented web free open source software license documentation download community">
+
+    
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Python.org">
+    <meta property="og:title" content="Welcome to Python.org">
+    <meta property="og:description" content="The official home of the Python Programming Language">
+    
+    <meta property="og:image" content="https://www.python.org/static/opengraph-icon-200x200.png">
+    <meta property="og:image:secure_url" content="https://www.python.org/static/opengraph-icon-200x200.png">
+    
+    <meta property="og:url" content="https://www.python.org/search/?q=python+2+ubuntu&amp;submit=">
+
+    <link rel="author" href="/static/humans.txt">
+
+    
+
+    
+    <script type="application/ld+json">
+     {
+       "@context": "http://schema.org",
+       "@type": "WebSite",
+       "url": "https://www.python.org/",
+       "potentialAction": {
+         "@type": "SearchAction",
+         "target": "https://www.python.org/search/?q={search_term_string}",
+         "query-input": "required name=search_term_string"
+       }
+     }
+    </script>
+
+    
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-39055973-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    </script>
+    
+</head>
+
+<body >
+
+    <div id="touchnav-wrapper">
+
+        <div id="nojs" class="do-not-print">
+            <p><strong>Notice:</strong> While Javascript is not essential for this website, your interaction with the content will be limited. Please turn Javascript on for the full experience. </p>
+        </div>
+
+        <!--[if lt IE 8]>
+        <div id="oldie-warning" class="do-not-print">
+            <p><strong>Notice:</strong> Your browser is <em>ancient</em> and <a href="http://www.ie6countdown.com/">Microsoft agrees</a>. <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience a better web.</p>
+        </div>
+        <![endif]-->
+
+        <!-- Sister Site Links -->
+        <div id="top" class="top-bar do-not-print">
+
+            <nav class="meta-navigation container" role="navigation">
+
+                
+                <div class="skip-link screen-reader-text">
+                    <a href="#content" title="Skip to content">Skip to content</a>
+                </div>
+
+                
+                <a id="close-python-network" class="jump-link" href="#python-network" aria-hidden="true">
+                    <span aria-hidden="true" class="icon-arrow-down"><span>&#9660;</span></span> Close
+                </a>
+
+                
+
+<ul class="menu" role="tree">
+    
+    <li class="python-meta ">
+        <a href="/" title="The Python Programming Language" >Python</a>
+    </li>
+    
+    <li class="psf-meta ">
+        <a href="/psf-landing/" title="The Python Software Foundation" >PSF</a>
+    </li>
+    
+    <li class="docs-meta ">
+        <a href="https://docs.python.org" title="Python Documentation" >Docs</a>
+    </li>
+    
+    <li class="pypi-meta ">
+        <a href="https://pypi.python.org/" title="Python Package Index" >PyPI</a>
+    </li>
+    
+    <li class="jobs-meta ">
+        <a href="/jobs/" title="Python Job Board" >Jobs</a>
+    </li>
+    
+    <li class="shop-meta ">
+        <a href="/community/" title="Python Community" >Community</a>
+    </li>
+    
+</ul>
+
+
+                <a id="python-network" class="jump-link" href="#top" aria-hidden="true">
+                    <span aria-hidden="true" class="icon-arrow-up"><span>&#9650;</span></span> The Python Network
+                </a>
+
+            </nav>
+
+        </div>
+
+        <!-- Header elements -->
+        <header class="main-header" role="banner">
+            <div class="container">
+
+                <h1 class="site-headline">
+                    <a href="/"><img class="python-logo" src="/static/img/python-logo.png" alt="python&trade;"></a>
+                </h1>
+
+                <div class="options-bar do-not-print">
+
+                    
+                    <a id="site-map-link" class="jump-to-menu" href="#site-map"><span class="menu-icon">&equiv;</span> Menu</a><form class="search-the-site" action="/search/" method="get">
+                        <fieldset title="Search Python.org">
+
+                            <span aria-hidden="true" class="icon-search"></span>
+
+                            <label class="screen-reader-text" for="id-search-field">Search This Site</label>
+                            <input id="id-search-field" name="q" type="search" role="textbox" class="search-field" placeholder="Search" value="python 2 ubuntu" tabindex="1">
+
+                            <button type="submit" name="submit" id="submit" class="search-button" title="Submit this Search" tabindex="3">
+                                GO
+                            </button>
+
+                            
+                            <!--[if IE]><input type="text" style="display: none;" disabled="disabled" size="1" tabindex="4"><![endif]-->
+
+                        </fieldset>
+                    </form><span class="breaker"></span><div class="adjust-font-size" aria-hidden="true">
+                        <ul class="navigation menu" aria-label="Adjust Text Size on Page">
+                            <li class="tier-1 last" aria-haspopup="true">
+                                <a href="#" class="action-trigger"><strong><small>A</small> A</strong></a>
+                                <ul class="subnav menu">
+                                    <li class="tier-2 element-1" role="treeitem"><a class="text-shrink" title="Make Text Smaller" href="javascript:;">Smaller</a></li>
+                                    <li class="tier-2 element-2" role="treeitem"><a class="text-grow" title="Make Text Larger" href="javascript:;">Larger</a></li>
+                                    <li class="tier-2 element-3" role="treeitem"><a class="text-reset" title="Reset any font size changes I have made" href="javascript:;">Reset</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div><div class="winkwink-nudgenudge">
+                        <ul class="navigation menu" aria-label="Social Media Navigation">
+                            <li class="tier-1 last" aria-haspopup="true">
+                                <a href="#" class="action-trigger">Socialize</a>
+                                <ul class="subnav menu">
+                                    <li class="tier-2 element-1" role="treeitem"><a href="http://plus.google.com/+Python"><span aria-hidden="true" class="icon-google-plus"></span>Google+</a></li>
+                                    <li class="tier-2 element-2" role="treeitem"><a href="http://www.facebook.com/pythonlang?fref=ts"><span aria-hidden="true" class="icon-facebook"></span>Facebook</a></li>
+                                    <li class="tier-2 element-3" role="treeitem"><a href="http://twitter.com/ThePSF"><span aria-hidden="true" class="icon-twitter"></span>Twitter</a></li>
+                                    <li class="tier-2 element-4" role="treeitem"><a href="/community/irc/"><span aria-hidden="true" class="icon-freenode"></span>Chat on IRC</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div><div class="account-signin">
+                        <ul class="navigation menu" aria-label="Social Media Navigation">
+                            <li class="tier-1 last" aria-haspopup="true">
+                                
+                                <a href="/accounts/login/" title="Sign Up or Sign In to Python.org">Sign In</a>
+                                <ul class="subnav menu">
+                                    <li class="tier-2 element-1" role="treeitem"><a href="/accounts/signup/">Sign Up / Register</a></li>
+                                    <li class="tier-2 element-2" role="treeitem"><a href="/accounts/login/">Sign In</a></li>
+                                </ul>
+                                
+                            </li>
+                        </ul>
+                    </div>
+
+                </div><!-- end options-bar -->
+
+                <nav id="mainnav" class="python-navigation main-navigation do-not-print" role="navigation">
+                    
+                        
+<ul class="navigation menu" role="menubar" aria-label="Main Navigation">
+  
+    
+    
+    <li id="about" class="tier-1 element-1  " aria-haspopup="true">
+        <a href="/about/" title="" class="">About</a>
+        
+            
+
+<ul class="subnav menu" role="menu" aria-hidden="true">
+    
+        <li class="tier-2 element-1" role="treeitem"><a href="/about/apps/" title="">Applications</a></li>
+    
+        <li class="tier-2 element-2" role="treeitem"><a href="/about/quotes/" title="">Quotes</a></li>
+    
+        <li class="tier-2 element-3" role="treeitem"><a href="/about/gettingstarted/" title="">Getting Started</a></li>
+    
+        <li class="tier-2 element-4" role="treeitem"><a href="/about/help/" title="">Help</a></li>
+    
+</ul>
+
+        
+    </li>
+    
+    
+    
+    <li id="downloads" class="tier-1 element-2  " aria-haspopup="true">
+        <a href="/downloads/" title="" class="">Downloads</a>
+        
+            
+
+<ul class="subnav menu" role="menu" aria-hidden="true">
+    
+        <li class="tier-2 element-1" role="treeitem"><a href="/downloads/" title="">All releases</a></li>
+    
+        <li class="tier-2 element-2" role="treeitem"><a href="/downloads/source/" title="">Source code</a></li>
+    
+        <li class="tier-2 element-3" role="treeitem"><a href="/downloads/windows/" title="">Windows</a></li>
+    
+        <li class="tier-2 element-4" role="treeitem"><a href="/downloads/mac-osx/" title="">Mac OS X</a></li>
+    
+        <li class="tier-2 element-5" role="treeitem"><a href="/download/other/" title="">Other Platforms</a></li>
+    
+        <li class="tier-2 element-6" role="treeitem"><a href="https://docs.python.org/3/license.html" title="">License</a></li>
+    
+        <li class="tier-2 element-7" role="treeitem"><a href="/download/alternatives" title="">Alternative Implementations</a></li>
+    
+</ul>
+
+        
+    </li>
+    
+    
+    
+    <li id="documentation" class="tier-1 element-3  " aria-haspopup="true">
+        <a href="/doc/" title="" class="">Documentation</a>
+        
+            
+
+<ul class="subnav menu" role="menu" aria-hidden="true">
+    
+        <li class="tier-2 element-1" role="treeitem"><a href="/doc/" title="">Docs</a></li>
+    
+        <li class="tier-2 element-2" role="treeitem"><a href="/doc/av" title="">Audio/Visual Talks</a></li>
+    
+        <li class="tier-2 element-3" role="treeitem"><a href="https://wiki.python.org/moin/BeginnersGuide" title="">Beginner&#39;s Guide</a></li>
+    
+        <li class="tier-2 element-4" role="treeitem"><a href="https://docs.python.org/devguide/" title="">Developer&#39;s Guide</a></li>
+    
+        <li class="tier-2 element-5" role="treeitem"><a href="https://docs.python.org/faq/" title="">FAQ</a></li>
+    
+        <li class="tier-2 element-6" role="treeitem"><a href="http://wiki.python.org/moin/Languages" title="">Non-English Docs</a></li>
+    
+        <li class="tier-2 element-7" role="treeitem"><a href="http://python.org/dev/peps/" title="">PEP Index</a></li>
+    
+        <li class="tier-2 element-8" role="treeitem"><a href="https://wiki.python.org/moin/PythonBooks" title="">Python Books</a></li>
+    
+</ul>
+
+        
+    </li>
+    
+    
+    
+    <li id="community" class="tier-1 element-4  " aria-haspopup="true">
+        <a href="/community/" title="" class="">Community</a>
+        
+            
+
+<ul class="subnav menu" role="menu" aria-hidden="true">
+    
+        <li class="tier-2 element-1" role="treeitem"><a href="/community/diversity/" title="">Diversity</a></li>
+    
+        <li class="tier-2 element-2" role="treeitem"><a href="/community/irc/" title="">IRC</a></li>
+    
+        <li class="tier-2 element-3" role="treeitem"><a href="/community/lists/" title="">Mailing Lists</a></li>
+    
+        <li class="tier-2 element-4" role="treeitem"><a href="/community/workshops/" title="">Python Conferences</a></li>
+    
+        <li class="tier-2 element-5" role="treeitem"><a href="/community/sigs/" title="">Special Interest Groups</a></li>
+    
+        <li class="tier-2 element-6" role="treeitem"><a href="https://wiki.python.org/moin/" title="">Python Wiki</a></li>
+    
+        <li class="tier-2 element-7" role="treeitem"><a href="/community/logos/" title="">Python Logo</a></li>
+    
+        <li class="tier-2 element-8" role="treeitem"><a href="/community/merchandise/" title="">Merchandise</a></li>
+    
+        <li class="tier-2 element-9" role="treeitem"><a href="/community/awards" title="">Community Awards</a></li>
+    
+</ul>
+
+        
+    </li>
+    
+    
+    
+    <li id="success-stories" class="tier-1 element-5  " aria-haspopup="true">
+        <a href="/about/success/" title="success-stories" class="">Success Stories</a>
+        
+            
+
+<ul class="subnav menu" role="menu" aria-hidden="true">
+    
+        <li class="tier-2 element-1" role="treeitem"><a href="/about/success/#arts" title="">Arts</a></li>
+    
+        <li class="tier-2 element-2" role="treeitem"><a href="/about/success/#business" title="">Business</a></li>
+    
+        <li class="tier-2 element-3" role="treeitem"><a href="/about/success/#education" title="">Education</a></li>
+    
+        <li class="tier-2 element-4" role="treeitem"><a href="/about/success/#engineering" title="">Engineering</a></li>
+    
+        <li class="tier-2 element-5" role="treeitem"><a href="/about/success/#government" title="">Government</a></li>
+    
+        <li class="tier-2 element-6" role="treeitem"><a href="/about/success/#scientific" title="">Scientific</a></li>
+    
+        <li class="tier-2 element-7" role="treeitem"><a href="/about/success/#software-development" title="">Software Development</a></li>
+    
+</ul>
+
+        
+    </li>
+    
+    
+    
+    <li id="news" class="tier-1 element-6  " aria-haspopup="true">
+        <a href="/blogs/" title="News from around the Python world" class="">News</a>
+        
+            
+
+<ul class="subnav menu" role="menu" aria-hidden="true">
+    
+        <li class="tier-2 element-1" role="treeitem"><a href="/blogs/" title="Python Insider Blog Posts">Python News</a></li>
+    
+        <li class="tier-2 element-2" role="treeitem"><a href="http://planetpython.org/" title="Planet Python">Community News</a></li>
+    
+        <li class="tier-2 element-3" role="treeitem"><a href="http://pyfound.blogspot.com/" title="PSF Blog">PSF News</a></li>
+    
+        <li class="tier-2 element-4" role="treeitem"><a href="http://pycon.blogspot.com/" title="PyCon Blog">PyCon News</a></li>
+    
+</ul>
+
+        
+    </li>
+    
+    
+    
+    <li id="events" class="tier-1 element-7  " aria-haspopup="true">
+        <a href="/events/" title="" class="">Events</a>
+        
+            
+
+<ul class="subnav menu" role="menu" aria-hidden="true">
+    
+        <li class="tier-2 element-1" role="treeitem"><a href="/events/python-events/" title="">Python Events</a></li>
+    
+        <li class="tier-2 element-2" role="treeitem"><a href="/events/python-user-group/" title="">User Group Events</a></li>
+    
+        <li class="tier-2 element-3" role="treeitem"><a href="/events/python-events/past/" title="">Python Events Archive</a></li>
+    
+        <li class="tier-2 element-4" role="treeitem"><a href="/events/python-user-group/past/" title="">User Group Events Archive</a></li>
+    
+        <li class="tier-2 element-5" role="treeitem"><a href="https://wiki.python.org/moin/PythonEventsCalendar#Submitting_an_Event" title="">Submit an Event</a></li>
+    
+</ul>
+
+        
+    </li>
+    
+    
+    
+    
+  
+</ul>
+
+                    
+                </nav>
+
+                <div class="header-banner "> <!-- for optional "do-not-print" class -->
+                    
+                    
+                </div>
+
+                
+                
+
+             </div><!-- end .container -->
+        </header>
+
+        <div id="content" class="content-wrapper">
+            <!-- Main Content Column -->
+            <div class="container">
+
+                <section class="main-content " role="main">
+
+                    
+                    
+
+                    
+    <h2>Search Python.org</h2>
+
+    <form method="get" action=".">
+        <p>
+            <input type="text" name="q" value="python 2 ubuntu">
+            <input type="submit" value="Search">
+        </p>
+        
+            <h3>Results</h3>
+
+            <ul class="list-recent-events menu">
+            
+            <li>
+                <h3><a href="/jobs/1601/">Job - Django Developer - Junior / Mid</a></h3>
+
+<p>Location: Phoenix, AZ USA</p>
+
+<p>Telecommuting: Yes</p>
+<p>Pivotal Energy Solutions is looking for a few mid-level Django/Python developers to add to our growing team. We are an Software Company focused on providing high quality software to the Energy Sector.  We develop all of our code using the Django / AWS Webstack and are looking to add some ...</p>
+            </li>
+            
+            <li>
+                <h3><a href="/download/releases/2.6.8">Python 2.6.8 Release</a></h3>
+<p>
+Python 2.6.8
+
+Python 2.6.8 has been replaced by a newer security-fix
+source-only release.  Please download Python 2.6.9
+instead.
+Python 2.6.8 is a security-fix source-only release for Python 2.6.7, fixing several reported security issues: issue 13703
+(oCERT-2011-003, CVE-2012-1150, hash collision denial ...</p>
+
+            </li>
+            
+            <li>
+                <h3><a href="/jobs/1595/">Job - Seasoned Lead Python Engineer</a></h3>
+
+<p>Location: New York USA</p>
+
+
+<p>As a seasoned python engineer, you will work closely with the CTO to build out functionality and shape the platformâ€™s experience and value to customers. You will also help build the growing engineering team and set a foundation for LeafLinkâ€™s development process and infrastructure.
+</p>
+            </li>
+            
+            <li>
+                <h3><a href="/jobs/1581/">Job - Seasoned Lead Python Engineer</a></h3>
+
+<p>Location: New York, New York United States</p>
+
+
+<p>As a seasoned python engineer, you will work closely with the CTO to build out functionality and shape the platform's experience and value to customers. You will also help build the growing engineering team and set a foundation for LeafLink's development process and infrastructure.
+</p>
+            </li>
+            
+            <li>
+                <h3><a href="/psf/records/board/minutes/2005-10-11">Python Software Foundation: Minutes of Board of Directors Meeting, October 11, 2005 (Draft)</a></h3>
+<p>
+
+The Python Software Foundation
+Minutes of a Regular Meeting of the Board of Directors
+(Draft)
+
+October 11, 2005
+
+A regular meeting of the Python Software Foundation (the &quot;PSF&quot;) Board
+of Directors was held over Internet Relay Chat beginning at 17:15 UTC,
+11 October 2005.  Martin von LÃ¶wis presided at ...</p>
+
+            </li>
+            
+            <li>
+                <h3><a href="/psf/records/board/minutes/2005-11-08">Python Software Foundation: Minutes of Board of Directors Meeting, November 8, 2005</a></h3>
+<p>
+
+The Python Software Foundation
+Minutes of a Regular Meeting of the Board of Directors
+
+November 8, 2005
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 18:08 UTC, 8
+November 2005.  Stephan Deibel presided at the meeting.
+
+1&nbsp;&nbsp;&nbsp;Attendance ...</p>
+
+            </li>
+            
+            <li>
+                <h3><a href="/download/releases/2.6.9">Python 2.6.9 Release</a></h3>
+<p>
+Python 2.6.9
+
+Python 2.6.9 is a security-fix source-only release for Python 2.6.8, fixing several reported security issues: issue 16037,
+issue 16038, issue 16039, issue 16040, issue 16041, and issue
+16042 (CVE-2013-1752, long lines consuming too much memory), as well as
+issue 14984 (security enforcement ...</p>
+
+            </li>
+            
+            <li>
+                <h3><a href="/psf/records/board/minutes/2005-12-13">Python Software Foundation: Minutes of Board of Directors Meeting, December 13, 2005</a></h3>
+<p>
+
+The Python Software Foundation
+Minutes of a Regular Meeting of the Board of Directors
+
+December 13, 2005
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 18:04 UTC, 13
+December 2005.  Stephan Deibel presided at the meeting.
+
+1&nbsp;&nbsp;&nbsp;Attendance ...</p>
+
+            </li>
+            
+            <li>
+                <h3><a href="/jobs/1604/">Job - Senior Django Developer/Architect</a></h3>
+
+<p>Location: Remote N/A</p>
+
+<p>Telecommuting: Yes</p>
+<p>This role requires a technology leader who can demonstrate deep commitment to success and innovation in web development technologies. Individuals with a strong architecture and leadership focus on both frontend and backend web development are the ideal candidate. This position requires a full-stack development focus with a strong primary expertise ...</p>
+            </li>
+            
+            <li>
+                <h3><a href="/psf/records/board/minutes/2006-02-14">Python Software Foundation: Minutes of Board of Directors Meeting, February 14, 2006</a></h3>
+<p>
+
+The Python Software Foundation
+Minutes of a Regular Meeting of the Board of Directors
+
+February 14, 2006
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 18:00 UTC, 14
+February 2006.  Stephan Deibel presided at the meeting.
+
+1&nbsp;&nbsp;&nbsp;Attendance ...</p>
+
+            </li>
+            
+            <li>
+                <h3><a href="/dev/peps/pep-3149/">PEP 3149 -- ABI version tagged .so files</a></h3>
+<p>
+
+ 
+  
+   
+   
+   
+   
+   
+    
+     
+      PEP:
+     
+     
+      3149
+     
+    
+    
+     
+      Title:
+     
+     
+      ABI version tagged .so files
+     
+    
+    
+     
+      Author:
+     
+     
+      Barry Warsaw &lt;barry at python.org&gt;
+     
+    
+    
+     
+      Status:
+     
+     
+      Final
+     
+    
+    
+     
+      Type:
+     
+     
+      Standards Track
+     
+    
+    
+     
+      Created:
+     
+     
+      2010-07-09
+     
+    
+    
+     
+      Python-Version:
+     
+     
+      3.2
+     
+    
+    
+     
+      Post-History:
+     
+     
+      2010-07-14, 2010-07-22
+     
+    
+    
+     
+      Resolution:
+     
+     
+      
+       http://mail.python.org/pipermail/python-dev/2010-September/103408.html
+      
+     
+    
+   
+  
+  
+  
+   
+    Contents
+   
+   
+    
+     
+      Abstract
+     
+    
+    
+     
+      Background
+     
+    
+    
+     
+      Rationale
+     
+    
+    
+     
+      Proposal
+     
+    
+    
+     
+      Proven approach
+     
+    
+    
+     
+      Windows
+     
+    
+    
+     
+      PEP 384
+     
+    
+    
+     
+      Alternatives
+     
+     
+      
+       
+        Independent ...</p>
+
+            </li>
+            
+            <li>
+                <h3><a href="/dev/peps/pep-0414/">PEP 0414 -- Explicit Unicode Literal for Python 3.3</a></h3>
+<p>
+
+ 
+  
+   
+   
+   
+   
+   
+    
+     
+      PEP:
+     
+     
+      414
+     
+    
+    
+     
+      Title:
+     
+     
+      Explicit Unicode Literal for Python 3.3
+     
+    
+    
+     
+      Author:
+     
+     
+      Armin Ronacher &lt;armin.ronacher at active-4.com&gt;,
+Nick Coghlan &lt;ncoghlan at gmail.com&gt;
+     
+    
+    
+     
+      Status:
+     
+     
+      Final
+     
+    
+    
+     
+      Type:
+     
+     
+      Standards Track
+     
+    
+    
+     
+      Created:
+     
+     
+      15-Feb-2012
+     
+    
+    
+     
+      Post-History:
+     
+     
+      28-Feb-2012, 04-Mar-2012
+     
+    
+    
+     
+      Resolution:
+     
+     
+      
+       http://mail.python.org/pipermail/python-dev/2012-February/116995.html
+      
+     
+    
+   
+  
+  
+  
+   
+    Contents
+   
+   
+    
+     
+      Abstract
+     
+    
+    
+     
+      BDFL Pronouncement
+     
+    
+    
+     
+      Proposal
+     
+    
+    
+     
+      Exclusion ...</p>
+
+            </li>
+            
+            <li>
+                <h3><a href="/psf/records/board/minutes/2008-10-13">2008-10-13 PSF Board Meeting Minutes</a></h3>
+<p>
+
+The Python Software Foundation
+Minutes of a Regular Meeting of the Board of Directors
+
+October 13, 2008
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 16:00 UTC, 13
+October 2008.  Steve Holden presided at the meeting.  David ...</p>
+
+            </li>
+            
+            <li>
+                <h3><a href="/psf/records/board/minutes/2006-09-18">Python Software Foundation Board Meeting Minutes 2006-09-18</a></h3>
+<p>
+
+The Python Software Foundation
+Minutes of a Regular Meeting of the Board of Directors
+
+September 18, 2006
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 17:29 UTC, 18
+September 2006.  Stephan Deibel presided at the meeting.  David ...</p>
+
+            </li>
+            
+            <li>
+                <h3><a href="/psf/records/board/minutes/2006-07-10">Python Software Foundation Board Meeting Minutes 2006-07-10</a></h3>
+<p>
+
+The Python Software Foundation
+Minutes of a Regular Meeting of the Board of Directors
+
+July 10, 2006
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 17:00 UTC, 10
+July 2006.  Steve Holden presided at the meeting.  David ...</p>
+
+            </li>
+            
+            <li>
+                <h3><a href="/dev/peps/pep-0466/">PEP 0466 -- Network Security Enhancements for Python 2.7.x</a></h3>
+<p>
+
+ 
+  
+   
+   
+   
+   
+   
+    
+     
+      PEP:
+     
+     
+      466
+     
+    
+    
+     
+      Title:
+     
+     
+      Network Security Enhancements for Python 2.7.x
+     
+    
+    
+     
+      Author:
+     
+     
+      Nick Coghlan &lt;ncoghlan at gmail.com&gt;,
+     
+    
+    
+     
+      Status:
+     
+     
+      Final
+     
+    
+    
+     
+      Type:
+     
+     
+      Standards Track
+     
+    
+    
+     
+      Created:
+     
+     
+      23-Mar-2014
+     
+    
+    
+     
+      Python-Version:
+     
+     
+      2.7.9
+     
+    
+    
+     
+      Post-History:
+     
+     
+      23-Mar-2014, 24-Mar-2014, 25-Mar-2014, 26-Mar-2014, 16-Apr-2014
+     
+    
+    
+     
+      Resolution:
+     
+     
+      
+       https://mail.python.org/pipermail/python-dev/2014-April/134163.html
+      
+     
+    
+   
+  
+  
+  
+   
+    Contents
+   
+   
+    
+     
+      Abstract
+     
+    
+    
+     
+      New security related ...</p>
+
+            </li>
+            
+            <li>
+                <h3><a href="/psf/records/board/minutes/2006-01-10">Python Software Foundation: Minutes of Board of Directors Meeting, January 10, 2006</a></h3>
+<p>
+
+The Python Software Foundation
+Minutes of a Regular Meeting of the Board of Directors
+
+January 10, 2006
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 18:00 UTC, 10
+January 2006.  Stephan Deibel presided at the meeting.
+
+1&nbsp;&nbsp;&nbsp;Attendance ...</p>
+
+            </li>
+            
+            <li>
+                <h3><a href="/psf/records/board/minutes/2006-03-13">Python Software Foundation Board Meeting Minutes 2006-03-13</a></h3>
+<p>
+
+The Python Software Foundation
+Minutes of a Regular Meeting of the Board of Directors
+
+March 13, 2006
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 18:00 UTC, 13
+March 2006.  Stephan Deibel presided at the meeting.
+
+1&nbsp;&nbsp;&nbsp;Attendance ...</p>
+
+            </li>
+            
+            <li>
+                <h3><a href="/dev/peps/pep-3147/">PEP 3147 -- PYC Repository Directories</a></h3>
+<p>
+
+ 
+  
+   
+   
+   
+   
+   
+    
+     
+      PEP:
+     
+     
+      3147
+     
+    
+    
+     
+      Title:
+     
+     
+      PYC Repository Directories
+     
+    
+    
+     
+      Author:
+     
+     
+      Barry Warsaw &lt;barry at python.org&gt;
+     
+    
+    
+     
+      Status:
+     
+     
+      Final
+     
+    
+    
+     
+      Type:
+     
+     
+      Standards Track
+     
+    
+    
+     
+      Created:
+     
+     
+      2009-12-16
+     
+    
+    
+     
+      Python-Version:
+     
+     
+      3.2
+     
+    
+    
+     
+      Post-History:
+     
+     
+      2010-01-30, 2010-02-25, 2010-03-03, 2010-04-12
+     
+    
+    
+     
+      Resolution:
+     
+     
+      
+       http://mail.python.org/pipermail/python-dev/2010-April/099414.html
+      
+     
+    
+   
+  
+  
+  
+   
+    Contents
+   
+   
+    
+     
+      Abstract
+     
+    
+    
+     
+      Background
+     
+    
+    
+     
+      Rationale
+     
+    
+    
+     
+      Proposal
+     
+     
+      
+       
+        Examples
+       
+      
+     
+    
+    
+     
+      Python behavior
+     
+     
+      
+       
+        Case 0: The steady ...</p>
+
+            </li>
+            
+            <li>
+                <h3><a href="/psf/records/board/minutes/2011-02-28">2011-02-28 PSF Board Meeting Minutes </a></h3>
+<p>
+
+The Python Software Foundation
+Minutes of a Regular Meeting of the Board of Directors
+
+February 28, 2011
+
+
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 16:00 UTC, 28
+February 2011. Steve Holden presided at the meeting. Pat ...</p>
+
+            </li>
+            
+            </ul>
+            
+                <div>
+                    &laquo; Previous
+                    |
+                    <a href="?q=python 2 ubuntu&amp;page=2">Next &raquo;</a>
+                </div>
+            
+        
+    </form>
+
+
+                </section>
+
+                
+                
+
+                
+                
+
+
+            </div><!-- end .container -->
+        </div><!-- end #content .content-wrapper -->
+
+        <!-- Footer and social media list -->
+        <footer id="site-map" class="main-footer" role="contentinfo">
+            <div class="main-footer-links">
+                <div class="container">
+
+                    
+                    <a id="back-to-top-1" class="jump-link" href="#python-network"><span aria-hidden="true" class="icon-arrow-up"><span>&#9650;</span></span> Back to Top</a>
+
+                    
+
+<ul class="sitemap navigation menu do-not-print" role="tree" id="container">
+    
+    <li class="tier-1 element-1">
+        <a href="/about/" >About</a>
+        
+            
+
+<ul class="subnav menu">
+    
+        <li class="tier-2 element-1" role="treeitem"><a href="/about/apps/" title="">Applications</a></li>
+    
+        <li class="tier-2 element-2" role="treeitem"><a href="/about/quotes/" title="">Quotes</a></li>
+    
+        <li class="tier-2 element-3" role="treeitem"><a href="/about/gettingstarted/" title="">Getting Started</a></li>
+    
+        <li class="tier-2 element-4" role="treeitem"><a href="/about/help/" title="">Help</a></li>
+    
+</ul>
+
+        
+    </li>
+    
+    <li class="tier-1 element-2">
+        <a href="/downloads/" >Downloads</a>
+        
+            
+
+<ul class="subnav menu">
+    
+        <li class="tier-2 element-1" role="treeitem"><a href="/downloads/" title="">All releases</a></li>
+    
+        <li class="tier-2 element-2" role="treeitem"><a href="/downloads/source/" title="">Source code</a></li>
+    
+        <li class="tier-2 element-3" role="treeitem"><a href="/downloads/windows/" title="">Windows</a></li>
+    
+        <li class="tier-2 element-4" role="treeitem"><a href="/downloads/mac-osx/" title="">Mac OS X</a></li>
+    
+        <li class="tier-2 element-5" role="treeitem"><a href="/download/other/" title="">Other Platforms</a></li>
+    
+        <li class="tier-2 element-6" role="treeitem"><a href="https://docs.python.org/3/license.html" title="">License</a></li>
+    
+        <li class="tier-2 element-7" role="treeitem"><a href="/download/alternatives" title="">Alternative Implementations</a></li>
+    
+</ul>
+
+        
+    </li>
+    
+    <li class="tier-1 element-3">
+        <a href="/doc/" >Documentation</a>
+        
+            
+
+<ul class="subnav menu">
+    
+        <li class="tier-2 element-1" role="treeitem"><a href="/doc/" title="">Docs</a></li>
+    
+        <li class="tier-2 element-2" role="treeitem"><a href="/doc/av" title="">Audio/Visual Talks</a></li>
+    
+        <li class="tier-2 element-3" role="treeitem"><a href="https://wiki.python.org/moin/BeginnersGuide" title="">Beginner&#39;s Guide</a></li>
+    
+        <li class="tier-2 element-4" role="treeitem"><a href="https://docs.python.org/devguide/" title="">Developer&#39;s Guide</a></li>
+    
+        <li class="tier-2 element-5" role="treeitem"><a href="https://docs.python.org/faq/" title="">FAQ</a></li>
+    
+        <li class="tier-2 element-6" role="treeitem"><a href="http://wiki.python.org/moin/Languages" title="">Non-English Docs</a></li>
+    
+        <li class="tier-2 element-7" role="treeitem"><a href="http://python.org/dev/peps/" title="">PEP Index</a></li>
+    
+        <li class="tier-2 element-8" role="treeitem"><a href="https://wiki.python.org/moin/PythonBooks" title="">Python Books</a></li>
+    
+</ul>
+
+        
+    </li>
+    
+    <li class="tier-1 element-4">
+        <a href="/community/" >Community</a>
+        
+            
+
+<ul class="subnav menu">
+    
+        <li class="tier-2 element-1" role="treeitem"><a href="/community/diversity/" title="">Diversity</a></li>
+    
+        <li class="tier-2 element-2" role="treeitem"><a href="/community/irc/" title="">IRC</a></li>
+    
+        <li class="tier-2 element-3" role="treeitem"><a href="/community/lists/" title="">Mailing Lists</a></li>
+    
+        <li class="tier-2 element-4" role="treeitem"><a href="/community/workshops/" title="">Python Conferences</a></li>
+    
+        <li class="tier-2 element-5" role="treeitem"><a href="/community/sigs/" title="">Special Interest Groups</a></li>
+    
+        <li class="tier-2 element-6" role="treeitem"><a href="https://wiki.python.org/moin/" title="">Python Wiki</a></li>
+    
+        <li class="tier-2 element-7" role="treeitem"><a href="/community/logos/" title="">Python Logo</a></li>
+    
+        <li class="tier-2 element-8" role="treeitem"><a href="/community/merchandise/" title="">Merchandise</a></li>
+    
+        <li class="tier-2 element-9" role="treeitem"><a href="/community/awards" title="">Community Awards</a></li>
+    
+</ul>
+
+        
+    </li>
+    
+    <li class="tier-1 element-5">
+        <a href="/about/success/" title="success-stories">Success Stories</a>
+        
+            
+
+<ul class="subnav menu">
+    
+        <li class="tier-2 element-1" role="treeitem"><a href="/about/success/#arts" title="">Arts</a></li>
+    
+        <li class="tier-2 element-2" role="treeitem"><a href="/about/success/#business" title="">Business</a></li>
+    
+        <li class="tier-2 element-3" role="treeitem"><a href="/about/success/#education" title="">Education</a></li>
+    
+        <li class="tier-2 element-4" role="treeitem"><a href="/about/success/#engineering" title="">Engineering</a></li>
+    
+        <li class="tier-2 element-5" role="treeitem"><a href="/about/success/#government" title="">Government</a></li>
+    
+        <li class="tier-2 element-6" role="treeitem"><a href="/about/success/#scientific" title="">Scientific</a></li>
+    
+        <li class="tier-2 element-7" role="treeitem"><a href="/about/success/#software-development" title="">Software Development</a></li>
+    
+</ul>
+
+        
+    </li>
+    
+    <li class="tier-1 element-6">
+        <a href="/blogs/" title="News from around the Python world">News</a>
+        
+            
+
+<ul class="subnav menu">
+    
+        <li class="tier-2 element-1" role="treeitem"><a href="/blogs/" title="Python Insider Blog Posts">Python News</a></li>
+    
+        <li class="tier-2 element-2" role="treeitem"><a href="http://planetpython.org/" title="Planet Python">Community News</a></li>
+    
+        <li class="tier-2 element-3" role="treeitem"><a href="http://pyfound.blogspot.com/" title="PSF Blog">PSF News</a></li>
+    
+        <li class="tier-2 element-4" role="treeitem"><a href="http://pycon.blogspot.com/" title="PyCon Blog">PyCon News</a></li>
+    
+</ul>
+
+        
+    </li>
+    
+    <li class="tier-1 element-7">
+        <a href="/events/" >Events</a>
+        
+            
+
+<ul class="subnav menu">
+    
+        <li class="tier-2 element-1" role="treeitem"><a href="/events/python-events/" title="">Python Events</a></li>
+    
+        <li class="tier-2 element-2" role="treeitem"><a href="/events/python-user-group/" title="">User Group Events</a></li>
+    
+        <li class="tier-2 element-3" role="treeitem"><a href="/events/python-events/past/" title="">Python Events Archive</a></li>
+    
+        <li class="tier-2 element-4" role="treeitem"><a href="/events/python-user-group/past/" title="">User Group Events Archive</a></li>
+    
+        <li class="tier-2 element-5" role="treeitem"><a href="https://wiki.python.org/moin/PythonEventsCalendar#Submitting_an_Event" title="">Submit an Event</a></li>
+    
+</ul>
+
+        
+    </li>
+    
+    <li class="tier-1 element-8">
+        <a href="/dev/" >Contributing</a>
+        
+            
+
+<ul class="subnav menu">
+    
+        <li class="tier-2 element-1" role="treeitem"><a href="http://docs.python.org/devguide/" title="">Developer&#39;s Guide</a></li>
+    
+        <li class="tier-2 element-2" role="treeitem"><a href="http://bugs.python.org/" title="">Issue Tracker</a></li>
+    
+        <li class="tier-2 element-3" role="treeitem"><a href="https://mail.python.org/mailman/listinfo/python-dev" title="">python-dev list</a></li>
+    
+        <li class="tier-2 element-4" role="treeitem"><a href="http://pythonmentors.com/" title="">Core Mentorship</a></li>
+    
+</ul>
+
+        
+    </li>
+    
+</ul>
+
+
+                    <a id="back-to-top-2" class="jump-link" href="#python-network"><span aria-hidden="true" class="icon-arrow-up"><span>&#9650;</span></span> Back to Top</a>
+                    
+
+                </div><!-- end .container -->
+            </div> <!-- end .main-footer-links -->
+
+            <div class="site-base">
+                <div class="container">
+                    
+                    <ul class="footer-links navigation menu do-not-print" role="tree">
+                        <li class="tier-1 element-1"><a href="/about/help/">Help &amp; <span class="say-no-more">General</span> Contact</a></li>
+                        <li class="tier-1 element-2"><a href="/community/diversity/">Diversity <span class="say-no-more">Initiatives</span></a></li>
+                        <li class="tier-1 element-3"><a href="https://github.com/python/pythondotorg/issues">Submit Website Bug</a></li>
+                        <!--<li class="tier-1 element-3"><a href="#"><span class="say-no-more">Website</span> Colophon</a></li>-->
+                    </ul>
+
+                    <div class="copyright">
+                        <p><small>
+                            <span class="pre">Copyright &copy;2001-2016.</span>
+                            &nbsp;<span class="pre"><a href="/psf-landing/">Python Software Foundation</a></span>
+                            &nbsp;<span class="pre"><a href="/about/legal/">Legal Statements</a></span>
+                            &nbsp;<span class="pre"><a href="/privacy/">Privacy Policy</a></span>
+                        </small></p>
+                    </div>
+
+                </div><!-- end .container -->
+            </div><!-- end .site-base -->
+
+        </footer>
+
+    </div><!-- end #touchnav-wrapper -->
+
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/static/js/libs/jquery-1.8.2.min.js"><\/script>')</script>
+
+    <script src="/static/js/libs/masonry.pkgd.min.js"></script>
+
+    <script type="text/javascript" src="/static/js/main-min.js" charset="utf-8"></script>
+    
+
+    <!--[if lte IE 7]>
+    <script type="text/javascript" src="/static/js/plugins/IE8-min.js" charset="utf-8"></script>
+    
+    
+    <![endif]-->
+
+    <!--[if lte IE 8]>
+    <script type="text/javascript" src="/static/js/plugins/getComputedStyle-min.js" charset="utf-8"></script>
+    
+    
+    <![endif]-->
+
+    
+
+    
+    
+
+</body>
+</html>
+ÀÚ)      Và®ªVà®®<8ó       9:https://www.python.org/search/?q=python+2+ubuntu&submit= necko:classified 1 security-info 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 request-method GET request-Cookie jScdfYuC6YMGBufuwk+oWYqct6Y= response-head HTTP/1.1 200 OK
+Server: nginx
+Content-Type: text/html; charset=utf-8
+X-Frame-Options: SAMEORIGIN
+X-Clacks-Overhead: GNU Terry Pratchett
+Content-Length: 43618
+Accept-Ranges: bytes
+Date: Wed, 09 Mar 2016 23:15:45 GMT
+Via: 1.1 varnish
+Age: 0
+X-Served-By: cache-fra1227-FRA
+X-Cache: MISS
+X-Cache-Hits: 0
+Vary: Cookie
+Public-Key-Pins: max-age=600; includeSubDomains; pin-sha256="WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18="; pin-sha256="5C8kvU039KouVrl52D0eZSGf4Onjo4Khs8tmyTlV3nU="; pin-sha256="5C8kvU039KouVrl52D0eZSGf4Onjo4Khs8tmyTlV3nU="; pin-sha256="lCppFqbkrlJ3EcVFAkeip0+44VaoJUymbnOaEUk7tEU="; pin-sha256="TUDnr0MEoJ3of7+YliBMBVFB4/gJsv5zO7IxD9+YoWI="; pin-sha256="x4QzPSC810K5/cMjb05Qm4k3Bw5zBn4lTdO/nEW/Td4=";
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+ charset UTF-8 uncompressed-len 0 predictor::resource-count 7 predictor::https://www.python.org/static/js/libs/modernizr.js 1,1,1457565354,0 predictor::https://www.python.org/static/stylesheets/style.css 1,1,1457565354,0 predictor::https://www.python.org/static/stylesheets/mq.css 1,1,1457565354,0 predictor::https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js 1,1,1457565354,0 predictor::https://www.python.org/static/js/libs/masonry.pkgd.min.js 1,1,1457565354,0 predictor::https://www.python.org/static/js/main-min.js 1,1,1457565354,0 predictor::https://ssl.google-analytics.com/ga.js 1,1,1457565354,0   ªb

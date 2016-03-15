@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/ula/Documents/helloworld.py" added="2016-03-10T21:35:16Z" modified="2016-03-10T21:37:31Z" visited="2016-03-10T21:35:16Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;gedit %U&apos;" modified="2016-03-10T21:35:16Z" count="1"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-03-10T21:37:31Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ula/Downloads/Sublime%20Text%202.0.2.tar.bz2" added="2016-03-10T23:01:01Z" modified="2016-03-12T19:54:43Z" visited="2016-03-10T23:01:02Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-bzip-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-03-10T23:01:01Z" count="1"/>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2016-03-12T19:54:43Z" count="2"/>
+          <bookmark:application name="nautilus" exec="&apos;file-roller %U&apos;" modified="2016-03-12T19:54:27Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ula/.cache/.fr-B4q26l/Sublime%20Text%202/PackageSetup.py" added="2016-03-12T19:55:20Z" modified="2016-03-12T19:55:20Z" visited="2016-03-12T19:55:21Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-03-12T19:55:20Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ula/Desktop/python_intro.py" added="2016-03-13T13:44:57Z" modified="2016-03-15T19:47:23Z" visited="2016-03-13T13:44:58Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text 2" exec="&apos;sublime_text %u&apos;" modified="2016-03-13T13:44:57Z" count="1"/>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/subl %F&apos;" modified="2016-03-15T19:47:23Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ula/mysite/settings.py" added="2016-03-13T14:35:01Z" modified="2016-03-14T20:14:22Z" visited="2016-03-13T14:35:03Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text 2" exec="&apos;sublime_text %u&apos;" modified="2016-03-13T14:35:01Z" count="1"/>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/subl %F&apos;" modified="2016-03-14T20:14:22Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ula/blog/models.py" added="2016-03-14T20:17:34Z" modified="2016-03-14T20:17:34Z" visited="2016-03-14T20:17:34Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/subl %F&apos;" modified="2016-03-14T20:17:34Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ula/blog/admin.py" added="2016-03-14T23:23:20Z" modified="2016-03-15T20:07:53Z" visited="2016-03-14T23:23:20Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/subl %F&apos;" modified="2016-03-15T20:07:53Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ula/manage.py" added="2016-03-14T23:45:57Z" modified="2016-03-15T00:03:24Z" visited="2016-03-14T23:45:57Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/subl %F&apos;" modified="2016-03-15T00:03:24Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ula/.gitignore" added="2016-03-15T21:02:23Z" modified="2016-03-15T21:02:23Z" visited="2016-03-15T21:02:24.456394Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text 2" exec="&apos;sublime_text %u&apos;" modified="2016-03-15T21:02:23Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>
